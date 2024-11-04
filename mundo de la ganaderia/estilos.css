@@ -1,0 +1,113 @@
+.body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 1%;
+    
+    background-image: url(imagenes/fondo.jpg);
+   
+}
+
+.contenedor {
+    width: 98%; 
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+
+    
+    
+}
+
+.encabezado {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1px; 
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    width: 95%;
+    height: 40%;
+    margin: 0 auto 1%;      
+    border-radius: 15px; 
+    box-shadow: 0 2% 4% rgba(0, 0, 0, 0.1);     
+    color:#6d3030;
+    font-family:Georgia,"Times New Roman",Times,serif;
+    font-style:italic;
+    letter-spacing:0.2em;    
+    text-transform:none;
+    padding-bottom:10px;
+    justify-content: center;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5%;
+    width: 60%;
+    height: 15%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    background-color: rgb(233, 179, 98);
+    border-radius: 15px;
+    opacity : 1;
+
+   
+}
+.ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ .li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+.li a {
+    color: #612d26;    
+    text-decoration: none;
+    padding: 2px 7px 2px 7px;
+    border-radius: 15px;
+    
+   
+}
+
+.li a:hover {
+    text-decoration: underline;
+    color: rgba(194, 63, 11, 0.397);
+}
+.contenido{
+    width: 98%; 
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 12px;
+    margin-right: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    justify-content: center;
+    color: rgb(245, 238, 238);
+    
+}
+
+.img{
+    height: 300px;
+    width: 350px;
+}
